@@ -2,21 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Cool First Webpage</title>
+  <title>My Cool First Webpage with Tweets</title>
 </head>
 <body>
-  <h1>Welcome to My First Webpage</h1>
-  <h2>About This Page</h2>
-  <h2>Why I Made It</h2>
-  <h3>Fun Facts</h3>
+  <!-- Main Homepage Content -->
+  <section id="home">
+    <h1>Welcome to My First Webpage</h1>
+    <h2>About This Page</h2>
+    <h2>Why I Made It</h2>
+    <h3>Fun Facts</h3>
 
-  <p>This is paragraph 1. Hello, world!</p>
-  <p>This is paragraph 2. I am learning HTML.</p>
-  <p>This is paragraph 3. I enjoy creating web pages.</p>
-  <p>This is paragraph 4. This page is my first portfolio example.</p>
+    <p>This is paragraph 1. Hello, world!</p>
+    <p>This is paragraph 2. I am learning HTML.</p>
+    <p>This is paragraph 3. I enjoy creating web pages.</p>
+    <p>This is paragraph 4. This page is my first portfolio example.</p>
 
-  <a href="https://www.alxafrica.com/">
-    <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-  </a>
+    <a href="https://www.alxafrica.com/">
+      <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
+    </a>
+
+    <p>
+      <a href="#tweets">See my tweets!</a>
+    </p>
+  </section>
+
+  <!-- Tweets Section -->
+  <section id="tweets">
+    <h1>My Tweets Page</h1>
+    <p>Here is an embedded tweet:</p>
+
+    <!-- Embed a single tweet -->
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">Just setting up my first webpage! #LearningHTML</p>&mdash; My Portfolio (@MyPortfolio) 
+      <a href="https://twitter.com/MyPortfolio/status/1234567890123456789">March 1, 2025</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <p>
+      <a href="#home">Back to Homepage</a>
+    </p>
+  </section>
 </body>
 </html>
+
